@@ -168,7 +168,10 @@
     grid-row: span 3;
     background-color: red;
 }
-
+.khoi6-2 img{
+    height: 100%;
+    width: 100%;
+}
 .khoi6-3{
     grid-column: span 1;
     grid-row: span 3;

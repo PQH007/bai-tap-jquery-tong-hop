@@ -8,8 +8,18 @@ $(':button').css({
 });
 
 $('#go1').click(function(){
-    var a = $('#sex','.radiosex');
-    // for(var i = 0; i < a.lenght; i ++);
-    console.log(a);
-    console.log(a.lenght);
+    var a = $('.radiosex');
+    if(a[0].checked){
+        alert('ban da chon '+ a[0].value);
+    }
+    if(a[1].checked){
+        alert('ban da chon '+ a[1].value);
+    }
+    if(a[2].checked){
+        alert('ban da chon '+ a[2].value);
+    }
 }); 
+$('#btbImg').click(function(){
+    var Img = $('#textImg').val();
+    $('#khoiImg').html(Img);
+});
