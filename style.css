@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.main{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(10,100px);
+    grid-template-rows: repeat(12,50px);
+}
+.khoi1{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: skyblue;
+}
+.khoi1-1{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.khoi2-1{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: greenyellow;
+}
+.khoi2-2{
+    grid-column: span 4;
+    grid-row: span 2;
+    border: 2px solid black;
+    text-align: right;
+}
+.khoi2-3{
+    grid-column: span 4;
+    grid-row: span 2;
+    background-color: yellow;
+}
+.khoi3-t-b{
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 2px solid black;
+    border-bottom: none;
+}
+.khoi3-v{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: orange;
+}
+.khoi3-t{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.khoi3-v-b{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: orange;
+    border-left: 2px solid black;
+}
+.khoi3-t{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.khoi3-v-b2{
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 2px solid black;
+    border-bottom: none;
+    background-color:orange;
+}
+.khoi4{
+    grid-column: span 10;
+    grid-row: span 1;
+    border: 2px solid black;
+    background-color: grey  ;
+    text-align: center;
+}
+.khoi5-1{
+    grid-column: span 1;
+    grid-row: span 3;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khoi5-2{
+    grid-column: span 2;
+    grid-row: span 4;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.browser{
+    width: 180px;
+    height: 160px;
+    background-color: white;
+}
+.browser select{
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.khoi5-3{
+    grid-column: span 3;
+    grid-row: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khoi5-3 input{
+    width: 180px;
+    height: 20px;
+    border: 1px solid black;
+}
+.khoi5-4{
+    grid-column: span 3;
+    grid-row: span 4;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textInput{
+    width: 260px;
+    height: 130px;
+    background-color: white;
+}
+.textInput textarea{
+    width: 250px;
+    height: 100px;
+    border: 1px solid skyblue;
+    margin: 5px;
+}
+#stt{
+    width: 50px;
+    border: 1px solid black;
+}
+.khoi5-5{
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 2px solid black;
+    border-bottom: none;
+}
+.khoi6-1{
+    grid-column: span 5;
+    grid-row: span 3;
+    border: 2px solid black;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+}
+.content{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.khoi6-2{
+    grid-column: span 1;
+    grid-row: span 3;
+    background-color: red;
+}
+
+.khoi6-3{
+    grid-column: span 1;
+    grid-row: span 3;
+    background-color: greenyellow;
+}
+.khoi6-4{
+    grid-column: span 3;
+    grid-row: span 3;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
