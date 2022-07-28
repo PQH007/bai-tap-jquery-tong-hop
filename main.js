@@ -21,6 +21,12 @@ $('#go1').click(function(){
 }); 
 // su kien 2
 $('#btbImg').click(function(){
+    if($('#textImg').val() == 'addbox'){
+        $('.khoi1').html('<input type="text">');
+    }
+    if($('#textImg').val() == 'removebox'){
+        $('.khoi1').html('');
+    }
     var Img = $('#textImg').val();
     $('#khoiImg').html(Img);
 });
@@ -76,3 +82,13 @@ $('#stt').change(function(){
     alert('Bạn đã thay đổi giá trị của combo box');
 })
 // su kien 9
+var d = new Date();
+var m = d.getMonth()+1;
+$('#btbBrowser').click(function(){
+    if($('#browser').val() == 'Chrome'){
+        alert('ban da chon dung'+ ' '+d.getDate()+'/'+m+'/'+d.getFullYear());
+    }
+    else{
+        alert('sai'+' ' + d.getHours()+'/'+d.getMinutes()+'/'+d.getSeconds())
+    }
+})
