@@ -48,17 +48,17 @@ $('#khoiNoi').click(function(){
 $('#go2').click(function(){
    var en = $('#eng');
    if(en.is(':checked')){
-        $('#khoi7').text(en.val());
+        $('#khoi7').text('english');
    }
    if($('#jp').is(':checked')){
-        $('#khoi7').text($('#jp').val());
+        $('#khoi7').text('japanese');
    }
    if(en.is(':checked') && $('#jp').is(':checked')){
         $('#khoi7').text(en.val()+', '+ $('#jp').val());
-   }
-   if(!en.is(':checked') && !$('#jp').is('checked')){
-    alert('ban chua chon mon hoc');
-   }
+  }
+//    if(!en.is(':checked') && !$('#jp').is('checked')){
+//     alert('ban chua chon mon hoc');
+//    }
 });
 // su kien 5
 $('#reset').click(function(){
